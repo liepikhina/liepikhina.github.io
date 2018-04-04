@@ -1,6 +1,5 @@
 ﻿/*  HEADER  */
 
-
 .page_header,
 .contacts,
 .contacts_wrapper,
@@ -30,11 +29,36 @@
   
 }
 
+.contacts_wrapper {
+  float: left;
+  display: block;
+  width: 560px;
+  margin: 0 15px;
+}
 
-/*  /HEADER  */
+.contacts {
+  
+  list-style: none;
+  text-align: left;
+  
+}
 
-/*  BRAND  */
+.contacts_item {
+  
+  list-style: none;
+  
+}
 
+.contacts .contacts_item {
+  
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 30px;
+  font-size: 14px;
+  line-height: 55px;
+  text-transform: capitalize;
+  
+}
 
 .brand {
   
@@ -43,7 +67,6 @@
   margin: 0 15px;
   
 }
-
 .brand_link {
   
   display: block;
@@ -52,7 +75,6 @@
   line-height: 0;
   
 }
-
 .brand_logo {
   
   display: inline-block;
@@ -61,13 +83,6 @@
   outline: none;
   
 }
-
-
-/*  /BRAND  */
-
-/*  NAVIGATION  */
-
-
 .navigation_wrapper {
   
   float: left;
@@ -115,17 +130,15 @@
   text-transform: capitalize;
   
 }
-
 .navigation-main .navigation_item:last-child {
   
   margin-right: 0;
-  
-}
+{
 
 .navigation-main .navigation_link {
   
   font-size: inherit;
   line-height: inherit;
-  color: #ffffff;
+  color: #000000;
   
 }
