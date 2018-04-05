@@ -32,9 +32,13 @@
 .contacts_wrapper {
   float: left;
   display: block;
-  width: 560px;
+  width: 550px;
   margin: 0 15px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #6d6f63;
 }
+
 
 .contacts {
   
@@ -64,7 +68,7 @@
   
   float: left;
   width: 140px;
-  margin: 0 15px;
+  margin: 15px;
   
 }
 .brand_link {
