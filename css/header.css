@@ -32,7 +32,7 @@
 .contacts_wrapper {
   float: left;
   display: block;
-  width: 550px;
+  width: 1200px;
   margin: 0 15px;
   border-bottom-style: solid;
   border-bottom-width: 2px;
@@ -129,6 +129,8 @@
   display: inline-block;
   vertical-align: middle;
   margin-right: 30px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
   font-size: 14px;
   line-height: 55px;
   text-transform: capitalize;
