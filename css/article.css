@@ -1,0 +1,54 @@
+﻿
+.article,
+.article_title,
+.article_content, {
+  
+  margin: 0;
+  padding: 0;
+  
+}
+
+.article {
+  
+  background-color: #ffffff;
+  color: #000000;
+  
+}
+
+.article.container {
+  
+  box-sizing: border-box;
+  padding-top: 190px;
+  padding-bottom: 174px;
+  padding-left: 516px;
+  
+  background-image: url("../img/wedding-girl.jpg");
+  background-repeat: no-repeat;
+  background-position: 62px bottom;
+  
+}
+
+.article_title {
+  
+  margin-bottom: 25px;
+  
+  font-family: 'Butler', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  
+}
+
+.article_content {
+  
+  margin-bottom: 30px;
+  
+  font-size: 16px;
+  line-height: 28px;
+  
+}
+
+
+
+/*  /EXCELLENT  */
