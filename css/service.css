@@ -1,4 +1,4 @@
-﻿/*  SERVICES  */
+/*  SERVICES  */
 
 
 .services,
@@ -18,6 +18,20 @@
   font-family: 'Butler', serif;
   font-size: 14px;
   line-height: 24px;
+  text-align: center; 
+}
+
+
+.services_name: {
+  margin: 0 15px;
+  margin-bottom: 15px;
+  
+  font-family: 'Butler', serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #555555;
   
 }
 
@@ -50,94 +64,8 @@
   text-decoration: none;
   color: inherit;
   text-align: center;
-  
-}
-
-.services_link::before {
-  
-  content: "";
-  
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  
-  width: 52px;
-  margin: 0 auto;
-  height: 50px;
-  
   background-image: url(../img/sprite.png);
   background-repeat: no-repeat;
-  
-}
-
-.services_link-app::before {
-  
-  background-position: 2px 0;
-  
-}
-
-.services_link-app:hover::before {
-  
-  background-position: 2px -50px;
-  
-}
-
-.services_link-dev::before {
-  
-  background-position: -299px 0;
-  
-}
-
-.services_link-dev:hover::before {
-  
-  background-position: -299px -50px;
-  
-}
-
-.services_link-cust::before {
-  
-  background-position: -598px -1px;
-  
-}
-
-.services_link-cust:hover::before {
-  
-  background-position: -598px -53px;
-  
-}
-
-.services_link-mark::before {
-  
-  background-position: -898px 0px;
-  
-}
-
-.services_link-mark:hover::before {
-  
-  background-position: -898px -50px;
-  
-}
-
-.services_link::after {
-  
-  content: "";
-  
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  
-  width: 70px;
-  margin: 0 auto;
-  height: 3px;
-  background-color: #f1eee9;
-  
-}
-
-.services_link:hover::after {
-  
-  background-color: #c7b299;
   
 }
 
@@ -160,11 +88,6 @@
   
 }
 
-.services_description {
-  
-  color: #8c8c8c;
-  
-}
 
 
 /*  /SERVICES  */
