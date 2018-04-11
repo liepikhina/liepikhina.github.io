@@ -1,7 +1,8 @@
 ﻿
 .article,
 .article_title,
-.article_content, {
+.article_content,
+.view_img, {
   
   margin: 0;
   padding: 0;
@@ -21,8 +22,6 @@
   padding-top: 190px;
   padding-bottom: 174px;
   padding-left: 516px;
-  
-  background-image: url("../img/wedding-girl.jpg");
   background-repeat: no-repeat;
   background-position: 62px bottom;
   
@@ -48,7 +47,11 @@
   line-height: 28px;
   
 }
+.view_img {
+  
+  display: block; 
+  max-width: 100%;
+  height: auto;
+  {
 
 
-
-/*  /EXCELLENT  */
