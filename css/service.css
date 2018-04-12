@@ -19,6 +19,7 @@
 .services_name: {
   margin: 0 15px;
   margin-bottom: 15px;
+  text-align: center;
   
   font-family: 'Butler', serif;
   font-weight: 600;
@@ -41,7 +42,7 @@
 .services_item {
   
   list-style: none;
-  width: 24,5%;
+  width: 25%;
   float: left;
   
 }
