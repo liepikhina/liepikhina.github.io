@@ -12,11 +12,6 @@
 .services {
   
   display: block;
-  
-  font-family: 'Butler', serif;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center; 
 }
 
 
@@ -26,8 +21,8 @@
   
   font-family: 'Butler', serif;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 26px;
   text-transform: capitalize;
   color: #555555;
   
@@ -37,8 +32,8 @@
   
   padding: 0;
   list-style: none;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 130px;
+  padding-bottom: 40px;
   
 }
 
@@ -56,8 +51,8 @@
   display: block;
   box-sizing: content-box;
   margin: 0 15px;
-  padding-top: 60px;
-  height: 60px;
+  padding-top: 130px;
+  height: 40px;
   
   text-decoration: none;
   color: inherit;
