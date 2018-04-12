@@ -1,4 +1,3 @@
-﻿
 .article,
 .article_title,
 .article_content,
@@ -22,19 +21,16 @@
   padding-top: 190px;
   padding-bottom: 174px;
   padding-left: 516px;
-  background-repeat: no-repeat;
-  background-position: 62px bottom;
-  
 }
 
 .article_title {
   
   margin-bottom: 25px;
-  
+  float: right;
   font-family: 'Butler', serif;
   font-weight: 600;
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 24px;
+  line-height: 50px;
   color: #000000;
   
 }
@@ -42,7 +38,7 @@
 .article_content {
   
   margin-bottom: 30px;
-  
+ text-align: right;
   font-size: 16px;
   line-height: 28px;
   
@@ -52,5 +48,7 @@
   float: left; 
   width: 50%;
   {
+
+
 
 
