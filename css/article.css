@@ -1,3 +1,4 @@
+﻿
 .article,
 .article_title,
 .article_content,
@@ -9,7 +10,12 @@
 }
 
 .article {
-  
+  width: 500px;
+  height: 350px;
+  padding-top: 85px;
+  padding-bottom: 15px;
+  padding-left: 90px;
+  padding-right: 60; 
   background-color: #ffffff;
   color: #000000;
   
@@ -17,16 +23,17 @@
 
 .article.container {
   
-  box-sizing: border-box;
-  padding-top: 190px;
-  padding-bottom: 174px;
-  padding-left: 516px;
+  
+  padding-top: 85px;
+  padding-bottom: 15px;
+  padding-left: 90px;
+  padding-right: 60;
+  border: 1px solid #000000;
 }
 
 .article_title {
   
   margin-bottom: 25px;
-  float: right;
   font-family: 'Butler', serif;
   font-weight: 600;
   font-size: 24px;
@@ -35,20 +42,17 @@
   
 }
 
-.article_content {
+.article_content: {
   
-  margin-bottom: 30px;
  text-align: right;
   font-size: 16px;
   line-height: 28px;
-  
+ 
 }
 .view_img {
   
   float: left; 
   width: 50%;
   {
-
-
 
 
